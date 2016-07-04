@@ -16,3 +16,4 @@ xfs unlink -link-name <name>
 xfs truncate format -file-name <name> -size <size>
 xfs info
 xfs version
+
