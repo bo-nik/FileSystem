@@ -7,11 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AE3388E71D2AA400009EDDBF /* Logger.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE3388E31D2AA400009EDDBF /* Logger.swift */; };
+		AE3388E81D2AA400009EDDBF /* FileSystem.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE3388E41D2AA400009EDDBF /* FileSystem.swift */; };
+		AE3388E91D2AA400009EDDBF /* Commands.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE3388E51D2AA400009EDDBF /* Commands.swift */; };
+		AE3388EA1D2AA400009EDDBF /* CommandLine.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE3388E61D2AA400009EDDBF /* CommandLine.swift */; };
 		AEFF85681D2AA141009D3D4D /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEFF85671D2AA141009D3D4D /* main.swift */; };
-		AEFF856F1D2AA15C009D3D4D /* FileSystem.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEFF856E1D2AA15C009D3D4D /* FileSystem.swift */; };
-		AEFF85711D2AA181009D3D4D /* Logger.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEFF85701D2AA181009D3D4D /* Logger.swift */; };
-		AEFF85731D2AA1A2009D3D4D /* CommandLine.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEFF85721D2AA1A2009D3D4D /* CommandLine.swift */; };
-		AEFF85751D2AA1B5009D3D4D /* Commands.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEFF85741D2AA1B5009D3D4D /* Commands.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -27,12 +27,12 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		AE3388E31D2AA400009EDDBF /* Logger.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Logger.swift; path = FileSystem/Logger.swift; sourceTree = "<group>"; };
+		AE3388E41D2AA400009EDDBF /* FileSystem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FileSystem.swift; sourceTree = "<group>"; };
+		AE3388E51D2AA400009EDDBF /* Commands.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Commands.swift; path = FileSystem/Commands.swift; sourceTree = "<group>"; };
+		AE3388E61D2AA400009EDDBF /* CommandLine.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CommandLine.swift; path = FileSystem/CommandLine.swift; sourceTree = "<group>"; };
 		AEFF85641D2AA141009D3D4D /* xfs */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = xfs; sourceTree = BUILT_PRODUCTS_DIR; };
 		AEFF85671D2AA141009D3D4D /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
-		AEFF856E1D2AA15C009D3D4D /* FileSystem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FileSystem.swift; sourceTree = SOURCE_ROOT; };
-		AEFF85701D2AA181009D3D4D /* Logger.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Logger.swift; sourceTree = "<group>"; };
-		AEFF85721D2AA1A2009D3D4D /* CommandLine.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommandLine.swift; sourceTree = "<group>"; };
-		AEFF85741D2AA1B5009D3D4D /* Commands.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Commands.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,7 +66,7 @@
 			isa = PBXGroup;
 			children = (
 				AEFF85671D2AA141009D3D4D /* main.swift */,
-				AEFF856E1D2AA15C009D3D4D /* FileSystem.swift */,
+				AE3388E41D2AA400009EDDBF /* FileSystem.swift */,
 				AEFF85761D2AA1CA009D3D4D /* Tools */,
 			);
 			path = FileSystem;
@@ -75,9 +75,9 @@
 		AEFF85761D2AA1CA009D3D4D /* Tools */ = {
 			isa = PBXGroup;
 			children = (
-				AEFF85701D2AA181009D3D4D /* Logger.swift */,
-				AEFF85721D2AA1A2009D3D4D /* CommandLine.swift */,
-				AEFF85741D2AA1B5009D3D4D /* Commands.swift */,
+				AE3388E31D2AA400009EDDBF /* Logger.swift */,
+				AE3388E51D2AA400009EDDBF /* Commands.swift */,
+				AE3388E61D2AA400009EDDBF /* CommandLine.swift */,
 			);
 			name = Tools;
 			path = ..;
@@ -140,11 +140,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AEFF856F1D2AA15C009D3D4D /* FileSystem.swift in Sources */,
-				AEFF85711D2AA181009D3D4D /* Logger.swift in Sources */,
+				AE3388EA1D2AA400009EDDBF /* CommandLine.swift in Sources */,
 				AEFF85681D2AA141009D3D4D /* main.swift in Sources */,
-				AEFF85751D2AA1B5009D3D4D /* Commands.swift in Sources */,
-				AEFF85731D2AA1A2009D3D4D /* CommandLine.swift in Sources */,
+				AE3388E81D2AA400009EDDBF /* FileSystem.swift in Sources */,
+				AE3388E71D2AA400009EDDBF /* Logger.swift in Sources */,
+				AE3388E91D2AA400009EDDBF /* Commands.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -266,6 +266,7 @@
 				AEFF856D1D2AA141009D3D4D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
