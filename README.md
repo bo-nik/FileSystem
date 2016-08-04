@@ -1,4 +1,4 @@
-# Usage
+## Usage
 xfs format -file-name &lt;name&gt; -size &lt;size&gt; -block-size &lt;size&gt; -descriptors-count &lt;count&gt;<br/>
 xfs mount -file-name &lt;name&gt;<br/>
 xfs umount<br/>
